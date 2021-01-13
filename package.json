@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "main": "script.js",
+
   "scripts": {
-    "start": "nodemon server.js",
-    "start : dev" : "nodemon server.js"
+  "start": "node server.js",
+  "start:dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
