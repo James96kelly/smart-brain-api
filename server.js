@@ -15,7 +15,8 @@ import {handleApiCall} from './controllers/image.js';
 const db = knex({
   client: 'pg',
   connection: {
-    host : process.env.DATABASE_URL,
+    connectionString : process.env.DATABASE_URL,
+    //host : process.env.DATABASE_URL,
     //host : 'postgresql-flat-15219',
     //host : '127.0.0.1',
     // user : 'postgres',
